@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+            border-radius: 30px;
+            color: white;
+            background-color: black;
+            }
+            #leftnav{
+                display: grid;
+                grid-template-columns: repeat(6,1fr);
+                grid-template-rows: repeat(1,100px);
+                width: 50%;
+                display: flex;
+                margin-top:11px;
+                justify-content: space-around;
+            }
+            #navright{
+                width: 50%;
+                margin-top: 11px;
+                margin-left: 30px;
+            }
+        
+        </style>
+</head>
+<body>
+    <!-- this is navbar -->
+    <div id="navbar">
+        <div id="navright">
+            <h3>Reebok</h3>
+        </div>
+        <div id="leftnav">
+            <h3>Men</h3>
+            <h3>Women</h3>
+            <h3>Login</h3>
+            <h3>Signup</h3>
+        </div>
+    </div>
+</body>
+</html>
